@@ -5,13 +5,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_margin="2dp"
+    android:background="#E8DFDF"
     tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/title"
-        android:layout_width="wrap_content"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
         android:text="@string/app_name"
+        android:textColor="@color/colorAccent"
         android:textSize="30sp"
         android:textStyle="bold|italic"
         app:layout_constraintBottom_toTopOf="@+id/imageView"
@@ -49,648 +53,728 @@
             android:layout_height="41dp"
             android:gravity="center"
             android:onClick="onSelect"
-            app:layout_row="0"
-            app:layout_column="0" />
+            app:layout_column="0"
+            app:layout_row="0" />
+
         <TextView
             android:id="@+id/txt01"
             android:layout_width="41dp"
             android:layout_height="41dp"
             android:gravity="center"
             android:onClick="onSelect"
-            app:layout_row="0"
-            app:layout_column="1" />
+            app:layout_column="1"
+            app:layout_row="0" />
+
         <TextView
             android:id="@+id/txt02"
             android:layout_width="41dp"
             android:layout_height="41dp"
             android:gravity="center"
             android:onClick="onSelect"
-            app:layout_row="0"
-            app:layout_column="2" />
+            app:layout_column="2"
+            app:layout_row="0" />
+
         <TextView
             android:id="@+id/txt03"
             android:layout_width="41dp"
             android:layout_height="41dp"
             android:gravity="center"
             android:onClick="onSelect"
-            app:layout_row="0"
-            app:layout_column="3" />
+            app:layout_column="3"
+            app:layout_row="0" />
+
         <TextView
             android:id="@+id/txt04"
             android:layout_width="41dp"
             android:layout_height="41dp"
             android:gravity="center"
             android:onClick="onSelect"
-            app:layout_row="0"
-            app:layout_column="4" />
+            app:layout_column="4"
+            app:layout_row="0" />
+
         <TextView
             android:id="@+id/txt05"
             android:layout_width="41dp"
             android:layout_height="41dp"
             android:gravity="center"
             android:onClick="onSelect"
-            app:layout_row="0"
-            app:layout_column="5" />
+            app:layout_column="5"
+            app:layout_row="0" />
+
         <TextView
             android:id="@+id/txt06"
             android:layout_width="41dp"
             android:layout_height="41dp"
             android:gravity="center"
             android:onClick="onSelect"
-            app:layout_row="0"
-            app:layout_column="6" />
+            app:layout_column="6"
+            app:layout_row="0" />
+
         <TextView
             android:id="@+id/txt07"
             android:layout_width="41dp"
             android:layout_height="41dp"
             android:gravity="center"
             android:onClick="onSelect"
-            app:layout_row="0"
-            app:layout_column="7" />
+            app:layout_column="7"
+            app:layout_row="0" />
+
         <TextView
             android:id="@+id/txt08"
             android:layout_width="41dp"
             android:layout_height="41dp"
             android:gravity="center"
             android:onClick="onSelect"
-            app:layout_row="0"
-            app:layout_column="8" />
+            app:layout_column="8"
+            app:layout_row="0" />
+
         <TextView
             android:id="@+id/txt10"
             android:layout_width="41dp"
             android:layout_height="41dp"
             android:gravity="center"
             android:onClick="onSelect"
-            app:layout_row="1"
-            app:layout_column="0" />
+            app:layout_column="0"
+            app:layout_row="1" />
+
         <TextView
             android:id="@+id/txt11"
             android:layout_width="41dp"
             android:layout_height="41dp"
             android:gravity="center"
             android:onClick="onSelect"
-            app:layout_row="1"
-            app:layout_column="1" />
+            app:layout_column="1"
+            app:layout_row="1" />
+
         <TextView
             android:id="@+id/txt12"
             android:layout_width="41dp"
             android:layout_height="41dp"
             android:gravity="center"
             android:onClick="onSelect"
-            app:layout_row="1"
-            app:layout_column="2" />
+            app:layout_column="2"
+            app:layout_row="1" />
+
         <TextView
             android:id="@+id/txt13"
             android:layout_width="41dp"
             android:layout_height="41dp"
             android:gravity="center"
             android:onClick="onSelect"
-            app:layout_row="1"
-            app:layout_column="3" />
+            app:layout_column="3"
+            app:layout_row="1" />
+
         <TextView
             android:id="@+id/txt14"
             android:layout_width="41dp"
             android:layout_height="41dp"
             android:gravity="center"
             android:onClick="onSelect"
-            app:layout_row="1"
-            app:layout_column="4" />
+            app:layout_column="4"
+            app:layout_row="1" />
+
         <TextView
             android:id="@+id/txt15"
             android:layout_width="41dp"
             android:layout_height="41dp"
             android:gravity="center"
             android:onClick="onSelect"
-            app:layout_row="1"
-            app:layout_column="5" />
+            app:layout_column="5"
+            app:layout_row="1" />
+
         <TextView
             android:id="@+id/txt16"
             android:layout_width="41dp"
             android:layout_height="41dp"
             android:gravity="center"
             android:onClick="onSelect"
-            app:layout_row="1"
-            app:layout_column="6" />
+            app:layout_column="6"
+            app:layout_row="1" />
+
         <TextView
             android:id="@+id/txt17"
             android:layout_width="41dp"
             android:layout_height="41dp"
             android:gravity="center"
             android:onClick="onSelect"
-            app:layout_row="1"
-            app:layout_column="7" />
+            app:layout_column="7"
+            app:layout_row="1" />
+
         <TextView
             android:id="@+id/txt18"
             android:layout_width="41dp"
             android:layout_height="41dp"
             android:gravity="center"
             android:onClick="onSelect"
-            app:layout_row="1"
-            app:layout_column="8" />
+            app:layout_column="8"
+            app:layout_row="1" />
+
         <TextView
             android:id="@+id/txt20"
             android:layout_width="41dp"
             android:layout_height="41dp"
             android:gravity="center"
             android:onClick="onSelect"
-            app:layout_row="2"
-            app:layout_column="0" />
+            app:layout_column="0"
+            app:layout_row="2" />
+
         <TextView
             android:id="@+id/txt21"
             android:layout_width="41dp"
             android:layout_height="41dp"
             android:gravity="center"
             android:onClick="onSelect"
-            app:layout_row="2"
-            app:layout_column="1" />
+            app:layout_column="1"
+            app:layout_row="2" />
+
         <TextView
             android:id="@+id/txt22"
             android:layout_width="41dp"
             android:layout_height="41dp"
             android:gravity="center"
             android:onClick="onSelect"
-            app:layout_row="2"
-            app:layout_column="2" />
+            app:layout_column="2"
+            app:layout_row="2" />
+
         <TextView
             android:id="@+id/txt23"
             android:layout_width="41dp"
             android:layout_height="41dp"
             android:gravity="center"
             android:onClick="onSelect"
-            app:layout_row="2"
-            app:layout_column="3" />
+            app:layout_column="3"
+            app:layout_row="2" />
+
         <TextView
             android:id="@+id/txt24"
             android:layout_width="41dp"
             android:layout_height="41dp"
             android:gravity="center"
             android:onClick="onSelect"
-            app:layout_row="2"
-            app:layout_column="4" />
+            app:layout_column="4"
+            app:layout_row="2" />
+
         <TextView
             android:id="@+id/txt25"
             android:layout_width="41dp"
             android:layout_height="41dp"
             android:gravity="center"
             android:onClick="onSelect"
-            app:layout_row="2"
-            app:layout_column="5" />
+            app:layout_column="5"
+            app:layout_row="2" />
+
         <TextView
             android:id="@+id/txt26"
             android:layout_width="41dp"
             android:layout_height="41dp"
             android:gravity="center"
             android:onClick="onSelect"
-            app:layout_row="2"
-            app:layout_column="6" />
+            app:layout_column="6"
+            app:layout_row="2" />
+
         <TextView
             android:id="@+id/txt27"
             android:layout_width="41dp"
             android:layout_height="41dp"
             android:gravity="center"
             android:onClick="onSelect"
-            app:layout_row="2"
-            app:layout_column="7" />
+            app:layout_column="7"
+            app:layout_row="2" />
+
         <TextView
             android:id="@+id/txt28"
             android:layout_width="41dp"
             android:layout_height="41dp"
             android:gravity="center"
             android:onClick="onSelect"
-            app:layout_row="2"
-            app:layout_column="8" />
+            app:layout_column="8"
+            app:layout_row="2" />
+
         <TextView
             android:id="@+id/txt30"
             android:layout_width="41dp"
             android:layout_height="41dp"
             android:gravity="center"
             android:onClick="onSelect"
-            app:layout_row="3"
-            app:layout_column="0" />
+            app:layout_column="0"
+            app:layout_row="3" />
+
         <TextView
             android:id="@+id/txt31"
             android:layout_width="41dp"
             android:layout_height="41dp"
             android:gravity="center"
             android:onClick="onSelect"
-            app:layout_row="3"
-            app:layout_column="1" />
+            app:layout_column="1"
+            app:layout_row="3" />
+
         <TextView
             android:id="@+id/txt32"
             android:layout_width="41dp"
             android:layout_height="41dp"
             android:gravity="center"
             android:onClick="onSelect"
-            app:layout_row="3"
-            app:layout_column="2" />
+            app:layout_column="2"
+            app:layout_row="3" />
+
         <TextView
             android:id="@+id/txt33"
             android:layout_width="41dp"
             android:layout_height="41dp"
             android:gravity="center"
             android:onClick="onSelect"
-            app:layout_row="3"
-            app:layout_column="3" />
+            app:layout_column="3"
+            app:layout_row="3" />
+
         <TextView
             android:id="@+id/txt34"
             android:layout_width="41dp"
             android:layout_height="41dp"
             android:gravity="center"
             android:onClick="onSelect"
-            app:layout_row="3"
-            app:layout_column="4" />
+            app:layout_column="4"
+            app:layout_row="3" />
+
         <TextView
             android:id="@+id/txt35"
             android:layout_width="41dp"
             android:layout_height="41dp"
             android:gravity="center"
             android:onClick="onSelect"
-            app:layout_row="3"
-            app:layout_column="5" />
+            app:layout_column="5"
+            app:layout_row="3" />
+
         <TextView
             android:id="@+id/txt36"
             android:layout_width="41dp"
             android:layout_height="41dp"
             android:gravity="center"
             android:onClick="onSelect"
-            app:layout_row="3"
-            app:layout_column="6" />
+            app:layout_column="6"
+            app:layout_row="3" />
+
         <TextView
             android:id="@+id/txt37"
             android:layout_width="41dp"
             android:layout_height="41dp"
             android:gravity="center"
             android:onClick="onSelect"
-            app:layout_row="3"
-            app:layout_column="7" />
+            app:layout_column="7"
+            app:layout_row="3" />
+
         <TextView
             android:id="@+id/txt38"
             android:layout_width="41dp"
             android:layout_height="41dp"
             android:gravity="center"
             android:onClick="onSelect"
-            app:layout_row="3"
-            app:layout_column="8" />
+            app:layout_column="8"
+            app:layout_row="3" />
+
         <TextView
             android:id="@+id/txt40"
             android:layout_width="41dp"
             android:layout_height="41dp"
             android:gravity="center"
             android:onClick="onSelect"
-            app:layout_row="4"
-            app:layout_column="0" />
+            app:layout_column="0"
+            app:layout_row="4" />
+
         <TextView
             android:id="@+id/txt41"
             android:layout_width="41dp"
             android:layout_height="41dp"
             android:gravity="center"
             android:onClick="onSelect"
-            app:layout_row="4"
-            app:layout_column="1" />
+            app:layout_column="1"
+            app:layout_row="4" />
+
         <TextView
             android:id="@+id/txt42"
             android:layout_width="41dp"
             android:layout_height="41dp"
             android:gravity="center"
             android:onClick="onSelect"
-            app:layout_row="4"
-            app:layout_column="2" />
+            app:layout_column="2"
+            app:layout_row="4" />
+
         <TextView
             android:id="@+id/txt43"
             android:layout_width="41dp"
             android:layout_height="41dp"
             android:gravity="center"
             android:onClick="onSelect"
-            app:layout_row="4"
-            app:layout_column="3" />
+            app:layout_column="3"
+            app:layout_row="4" />
+
         <TextView
             android:id="@+id/txt44"
             android:layout_width="41dp"
             android:layout_height="41dp"
             android:gravity="center"
             android:onClick="onSelect"
-            app:layout_row="4"
-            app:layout_column="4" />
+            app:layout_column="4"
+            app:layout_row="4" />
+
         <TextView
             android:id="@+id/txt45"
             android:layout_width="41dp"
             android:layout_height="41dp"
             android:gravity="center"
             android:onClick="onSelect"
-            app:layout_row="4"
-            app:layout_column="5" />
+            app:layout_column="5"
+            app:layout_row="4" />
+
         <TextView
             android:id="@+id/txt46"
             android:layout_width="41dp"
             android:layout_height="41dp"
             android:gravity="center"
             android:onClick="onSelect"
-            app:layout_row="4"
-            app:layout_column="6" />
+            app:layout_column="6"
+            app:layout_row="4" />
+
         <TextView
             android:id="@+id/txt47"
             android:layout_width="41dp"
             android:layout_height="41dp"
             android:gravity="center"
             android:onClick="onSelect"
-            app:layout_row="4"
-            app:layout_column="7" />
+            app:layout_column="7"
+            app:layout_row="4" />
+
         <TextView
             android:id="@+id/txt48"
             android:layout_width="41dp"
             android:layout_height="41dp"
             android:gravity="center"
             android:onClick="onSelect"
-            app:layout_row="4"
-            app:layout_column="8" />
+            app:layout_column="8"
+            app:layout_row="4" />
+
         <TextView
             android:id="@+id/txt50"
             android:layout_width="41dp"
             android:layout_height="41dp"
             android:gravity="center"
             android:onClick="onSelect"
-            app:layout_row="5"
-            app:layout_column="0" />
+            app:layout_column="0"
+            app:layout_row="5" />
+
         <TextView
             android:id="@+id/txt51"
             android:layout_width="41dp"
             android:layout_height="41dp"
             android:gravity="center"
             android:onClick="onSelect"
-            app:layout_row="5"
-            app:layout_column="1" />
+            app:layout_column="1"
+            app:layout_row="5" />
+
         <TextView
             android:id="@+id/txt52"
             android:layout_width="41dp"
             android:layout_height="41dp"
             android:gravity="center"
             android:onClick="onSelect"
-            app:layout_row="5"
-            app:layout_column="2" />
+            app:layout_column="2"
+            app:layout_row="5" />
+
         <TextView
             android:id="@+id/txt53"
             android:layout_width="41dp"
             android:layout_height="41dp"
             android:gravity="center"
             android:onClick="onSelect"
-            app:layout_row="5"
-            app:layout_column="3" />
+            app:layout_column="3"
+            app:layout_row="5" />
+
         <TextView
             android:id="@+id/txt54"
             android:layout_width="41dp"
             android:layout_height="41dp"
             android:gravity="center"
             android:onClick="onSelect"
-            app:layout_row="5"
-            app:layout_column="4" />
+            app:layout_column="4"
+            app:layout_row="5" />
+
         <TextView
             android:id="@+id/txt55"
             android:layout_width="41dp"
             android:layout_height="41dp"
             android:gravity="center"
             android:onClick="onSelect"
-            app:layout_row="5"
-            app:layout_column="5" />
+            app:layout_column="5"
+            app:layout_row="5" />
+
         <TextView
             android:id="@+id/txt56"
             android:layout_width="41dp"
             android:layout_height="41dp"
             android:gravity="center"
             android:onClick="onSelect"
-            app:layout_row="5"
-            app:layout_column="6" />
+            app:layout_column="6"
+            app:layout_row="5" />
+
         <TextView
             android:id="@+id/txt57"
             android:layout_width="41dp"
             android:layout_height="41dp"
             android:gravity="center"
             android:onClick="onSelect"
-            app:layout_row="5"
-            app:layout_column="7" />
+            app:layout_column="7"
+            app:layout_row="5" />
+
         <TextView
             android:id="@+id/txt58"
             android:layout_width="41dp"
             android:layout_height="41dp"
             android:gravity="center"
             android:onClick="onSelect"
-            app:layout_row="5"
-            app:layout_column="8" />
+            app:layout_column="8"
+            app:layout_row="5" />
+
         <TextView
             android:id="@+id/txt60"
             android:layout_width="41dp"
             android:layout_height="41dp"
             android:gravity="center"
             android:onClick="onSelect"
-            app:layout_row="6"
-            app:layout_column="0" />
+            app:layout_column="0"
+            app:layout_row="6" />
+
         <TextView
             android:id="@+id/txt61"
             android:layout_width="41dp"
             android:layout_height="41dp"
             android:gravity="center"
             android:onClick="onSelect"
-            app:layout_row="6"
-            app:layout_column="1" />
+            app:layout_column="1"
+            app:layout_row="6" />
+
         <TextView
             android:id="@+id/txt62"
             android:layout_width="41dp"
             android:layout_height="41dp"
             android:gravity="center"
             android:onClick="onSelect"
-            app:layout_row="6"
-            app:layout_column="2" />
+            app:layout_column="2"
+            app:layout_row="6" />
+
         <TextView
             android:id="@+id/txt63"
             android:layout_width="41dp"
             android:layout_height="41dp"
             android:gravity="center"
             android:onClick="onSelect"
-            app:layout_row="6"
-            app:layout_column="3" />
+            app:layout_column="3"
+            app:layout_row="6" />
+
         <TextView
             android:id="@+id/txt64"
             android:layout_width="41dp"
             android:layout_height="41dp"
             android:gravity="center"
             android:onClick="onSelect"
-            app:layout_row="6"
-            app:layout_column="4" />
+            app:layout_column="4"
+            app:layout_row="6" />
+
         <TextView
             android:id="@+id/txt65"
             android:layout_width="41dp"
             android:layout_height="41dp"
             android:gravity="center"
             android:onClick="onSelect"
-            app:layout_row="6"
-            app:layout_column="5" />
+            app:layout_column="5"
+            app:layout_row="6" />
+
         <TextView
             android:id="@+id/txt66"
             android:layout_width="41dp"
             android:layout_height="41dp"
             android:gravity="center"
             android:onClick="onSelect"
-            app:layout_row="6"
-            app:layout_column="6" />
+            app:layout_column="6"
+            app:layout_row="6" />
+
         <TextView
             android:id="@+id/txt67"
             android:layout_width="41dp"
             android:layout_height="41dp"
             android:gravity="center"
             android:onClick="onSelect"
-            app:layout_row="6"
-            app:layout_column="7" />
+            app:layout_column="7"
+            app:layout_row="6" />
+
         <TextView
             android:id="@+id/txt68"
             android:layout_width="41dp"
             android:layout_height="41dp"
             android:gravity="center"
             android:onClick="onSelect"
-            app:layout_row="6"
-            app:layout_column="8" />
+            app:layout_column="8"
+            app:layout_row="6" />
+
         <TextView
             android:id="@+id/txt70"
             android:layout_width="41dp"
             android:layout_height="41dp"
             android:gravity="center"
             android:onClick="onSelect"
-            app:layout_row="7"
-            app:layout_column="0" />
+            app:layout_column="0"
+            app:layout_row="7" />
+
         <TextView
             android:id="@+id/txt71"
             android:layout_width="41dp"
             android:layout_height="41dp"
             android:gravity="center"
             android:onClick="onSelect"
-            app:layout_row="7"
-            app:layout_column="1" />
+            app:layout_column="1"
+            app:layout_row="7" />
+
         <TextView
             android:id="@+id/txt72"
             android:layout_width="41dp"
             android:layout_height="41dp"
             android:gravity="center"
             android:onClick="onSelect"
-            app:layout_row="7"
-            app:layout_column="2" />
+            app:layout_column="2"
+            app:layout_row="7" />
+
         <TextView
             android:id="@+id/txt73"
             android:layout_width="41dp"
             android:layout_height="41dp"
             android:gravity="center"
             android:onClick="onSelect"
-            app:layout_row="7"
-            app:layout_column="3" />
+            app:layout_column="3"
+            app:layout_row="7" />
+
         <TextView
             android:id="@+id/txt74"
             android:layout_width="41dp"
             android:layout_height="41dp"
             android:gravity="center"
             android:onClick="onSelect"
-            app:layout_row="7"
-            app:layout_column="4" />
+            app:layout_column="4"
+            app:layout_row="7" />
+
         <TextView
             android:id="@+id/txt75"
             android:layout_width="41dp"
             android:layout_height="41dp"
             android:gravity="center"
             android:onClick="onSelect"
-            app:layout_row="7"
-            app:layout_column="5" />
+            app:layout_column="5"
+            app:layout_row="7" />
+
         <TextView
             android:id="@+id/txt76"
             android:layout_width="41dp"
             android:layout_height="41dp"
             android:gravity="center"
             android:onClick="onSelect"
-            app:layout_row="7"
-            app:layout_column="6" />
+            app:layout_column="6"
+            app:layout_row="7" />
+
         <TextView
             android:id="@+id/txt77"
             android:layout_width="41dp"
             android:layout_height="41dp"
             android:gravity="center"
             android:onClick="onSelect"
-            app:layout_row="7"
-            app:layout_column="7" />
+            app:layout_column="7"
+            app:layout_row="7" />
+
         <TextView
             android:id="@+id/txt78"
             android:layout_width="41dp"
             android:layout_height="41dp"
             android:gravity="center"
             android:onClick="onSelect"
-            app:layout_row="7"
-            app:layout_column="8" />
+            app:layout_column="8"
+            app:layout_row="7" />
+
         <TextView
             android:id="@+id/txt80"
             android:layout_width="41dp"
             android:layout_height="41dp"
             android:gravity="center"
             android:onClick="onSelect"
-            app:layout_row="8"
-            app:layout_column="0" />
+            app:layout_column="0"
+            app:layout_row="8" />
+
         <TextView
             android:id="@+id/txt81"
             android:layout_width="41dp"
             android:layout_height="41dp"
             android:gravity="center"
             android:onClick="onSelect"
-            app:layout_row="8"
-            app:layout_column="1" />
+            app:layout_column="1"
+            app:layout_row="8" />
+
         <TextView
             android:id="@+id/txt82"
             android:layout_width="41dp"
             android:layout_height="41dp"
             android:gravity="center"
             android:onClick="onSelect"
-            app:layout_row="8"
-            app:layout_column="2" />
+            app:layout_column="2"
+            app:layout_row="8" />
+
         <TextView
             android:id="@+id/txt83"
             android:layout_width="41dp"
             android:layout_height="41dp"
             android:gravity="center"
             android:onClick="onSelect"
-            app:layout_row="8"
-            app:layout_column="3" />
+            app:layout_column="3"
+            app:layout_row="8" />
+
         <TextView
             android:id="@+id/txt84"
             android:layout_width="41dp"
             android:layout_height="41dp"
             android:gravity="center"
             android:onClick="onSelect"
-            app:layout_row="8"
-            app:layout_column="4" />
+            app:layout_column="4"
+            app:layout_row="8" />
+
         <TextView
             android:id="@+id/txt85"
             android:layout_width="41dp"
             android:layout_height="41dp"
             android:gravity="center"
             android:onClick="onSelect"
-            app:layout_row="8"
-            app:layout_column="5" />
+            app:layout_column="5"
+            app:layout_row="8" />
+
         <TextView
             android:id="@+id/txt86"
             android:layout_width="41dp"
             android:layout_height="41dp"
             android:gravity="center"
             android:onClick="onSelect"
-            app:layout_row="8"
-            app:layout_column="6" />
+            app:layout_column="6"
+            app:layout_row="8" />
+
         <TextView
             android:id="@+id/txt87"
             android:layout_width="41dp"
             android:layout_height="41dp"
             android:gravity="center"
             android:onClick="onSelect"
-            app:layout_row="8"
-            app:layout_column="7" />
+            app:layout_column="7"
+            app:layout_row="8" />
+
         <TextView
             android:id="@+id/txt88"
             android:layout_width="41dp"
             android:layout_height="41dp"
             android:gravity="center"
             android:onClick="onSelect"
-            app:layout_row="8"
-            app:layout_column="8" />
+            app:layout_column="8"
+            app:layout_row="8" />
 
 
     </androidx.gridlayout.widget.GridLayout>
@@ -699,7 +783,7 @@
         android:id="@+id/numbersLayout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@android:color/darker_gray"
+        android:background="@color/colorPrimary"
         android:padding="7dp"
         app:columnCount="3"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -830,27 +914,16 @@
 
     </androidx.gridlayout.widget.GridLayout>
 
-    <Button
-        android:id="@+id/buttonSolve"
-        android:layout_width="84dp"
-        android:layout_height="120dp"
-        android:background="@android:color/darker_gray"
-        android:onClick="resultFinal"
-        android:text="Solve"
-        app:layout_constraintBottom_toBottomOf="@+id/numbersLayout"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/numbersLayout"
-        app:layout_constraintTop_toTopOf="@+id/numbersLayout"
-        app:layout_constraintVertical_bias="0.0" />
-
     <TextView
         android:id="@+id/selectedNum"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:background="@android:color/darker_gray"
+        android:background="@color/colorPrimary"
         android:gravity="center"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
         android:text="Select a number"
-        android:textColor="#FF1515"
+        android:textColor="@color/colorAccent"
         android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@+id/numbersLayout"
         app:layout_constraintEnd_toEndOf="parent"
@@ -858,15 +931,36 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="50dp"
-        android:onClick="restart"
-        android:text="Reset"
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="100dp"
+        android:layout_height="0dp"
+        android:background="@color/colorPrimary"
+        android:orientation="vertical"
+        android:padding="8dp"
         app:layout_constraintBottom_toBottomOf="@+id/numbersLayout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/numbersLayout"
-        app:layout_constraintTop_toBottomOf="@+id/buttonSolve" />
+        app:layout_constraintTop_toTopOf="@+id/numbersLayout">
+
+        <Button
+            android:id="@+id/buttonSolve"
+            android:layout_width="fill_parent"
+            android:layout_height="110dp"
+            android:layout_marginBottom="5dp"
+            android:background="@android:color/background_dark"
+            android:onClick="resultFinal"
+            android:text="Solve"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/background_dark"
+            android:onClick="restart"
+            android:text="Reset"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
