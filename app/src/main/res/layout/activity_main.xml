@@ -707,7 +707,7 @@
         app:layout_constraintHorizontal_bias="0.07"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView"
-        app:layout_constraintVertical_bias="0.42000002"
+        app:layout_constraintVertical_bias="0.71000004"
         app:rowCount="3">
 
         <Button
@@ -832,20 +832,24 @@
 
     <Button
         android:id="@+id/buttonSolve"
-        android:layout_width="wrap_content"
-        android:layout_height="0dp"
+        android:layout_width="84dp"
+        android:layout_height="120dp"
         android:background="@android:color/darker_gray"
         android:onClick="resultFinal"
         android:text="Solve"
         app:layout_constraintBottom_toBottomOf="@+id/numbersLayout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/numbersLayout"
-        app:layout_constraintTop_toTopOf="@+id/numbersLayout" />
+        app:layout_constraintTop_toTopOf="@+id/numbersLayout"
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/selectedNum"
-        android:layout_width="wrap_content"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
+        android:background="@android:color/darker_gray"
+        android:gravity="center"
+        android:text="Select a number"
         android:textColor="#FF1515"
         android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@+id/numbersLayout"
@@ -853,5 +857,16 @@
         app:layout_constraintHorizontal_bias="0.17"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:onClick="restart"
+        android:text="Reset"
+        app:layout_constraintBottom_toBottomOf="@+id/numbersLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/numbersLayout"
+        app:layout_constraintTop_toBottomOf="@+id/buttonSolve" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -2,7 +2,9 @@ package com.example.sudokusolver;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.Activity;
 import android.content.Context;
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
@@ -75,15 +77,15 @@ private TextView t00, t01, t02, t03, t04, t05, t06, t07, t08,
         TextView textView = (TextView) findViewById(view.getId());
         if (textView.getText().equals(String.valueOf(num))){
             num = 0;
-            selectedText.setText("Selected: NULL");
+            selectedText.setText(R.string.none);
         }
         if(num != 0) {
             textView.setText(String.valueOf(num));
             textView.setBackgroundColor(Color.GRAY);
         }
         else {
-            textView.setText("0");
-           // textView.setBackgroundColor(0);
+            textView.setText("");
+           textView.setBackground(null);
         }
 
     }
@@ -287,9 +289,15 @@ if(isValid(GRID_TO_SOLVE) == -1){
 }else if (sudoku.solve()){
             Toast.makeText(this,"Solved",Toast.LENGTH_SHORT).show();
             sudoku.display();
-        }else
+}else
             Toast.makeText(this,"Unsolvable",Toast.LENGTH_SHORT).show();
 
+    }
+
+    public void restart(View view){
+        Intent intent = new Intent(MainActivity.this, MainActivity.class);
+        startActivity(intent);
+        finish();
     }
 
     public class Sudoku {
